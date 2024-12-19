@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 /* ADD @import statements ABOVE this line  */
 
 /*  ------------------------------------------------------
@@ -13,7 +13,8 @@ body{
         You can also use max-width and auto margins to limit the width of the page content
         If you set a background-color here it will be the site background color.
     */
-
+    font-family: "Lacquer", serif;
+    background-color: #f1d5ff;
 }
 h1,h2,h3,h4,h5,h6{
     /* Here you can set the font-family for your headings */
@@ -25,7 +26,7 @@ h1,h2,h3,h4,h5,h6{
     Change the colors here to match the colors you want for your site.
     ------------------------------------------------------ */ 
 a{
-    color: #1313f1;
+    color: #8484b5;
     text-decoration: none;
     border-bottom: 1px solid #1313f1;
 }
@@ -34,7 +35,7 @@ a:hover{
     border-bottom: 3px solid #0fa4df;
 }
 a:visited{
-    color: #1313f1;
+    color: #7400b2;
     border-bottom: 1px solid #1313f1;
 }
 
@@ -44,7 +45,7 @@ a:visited{
     It also sets the color for the navigation.
     ------------------------------------------------------ */ 
 nav{
-    background-color: #fef6c6;
+    background-color: #f19acd;
     padding: 10px;
 }
     nav ul{
@@ -75,6 +76,26 @@ nav li a:visited{
 img,video{
     max-width: 100%; 
     height: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    padding: 20px;
+}
+
+footer {
+    background-color: #9569e0;
+    text-align: center;
+    padding: 15px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 /* Styling for video embeded with iframe */
